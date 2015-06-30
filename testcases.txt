@@ -1,0 +1,15 @@
+Lab NODE1
+
+
+1. It is unable to find / read the source file?
+  - If JSON file is not in same directory then u have give full path of JSON file.
+  - If file doent found it show Error: ENOENT, open 'E:\Assignments\Assignment-2\student.json'
+
+2. If the source file does not have a JSON string in it?
+  - Then it is unable to parse that JSON file.
+
+3.If certain keys are missing in the student records (say, score is missing)?
+  - In our example we use socre for sorting all the students based on their score (descending sort).
+
+4. If you are unable to write to the destination file due to lack of write permissions?
+  - In some location permission is not granted to normal user.
